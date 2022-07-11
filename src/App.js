@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
-import { BrowserRouter as Router, Switch, Route } 
-from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 
+'react-router-dom';
 import './App.css';
 
 
@@ -11,9 +11,9 @@ function App() {
     <Router>
 
      <Navbar />
-     <Switch>
+     <Routes>
       <Route path='/' exact />
-     </Switch>
+     </Routes>
 
      </Router>
     </>
